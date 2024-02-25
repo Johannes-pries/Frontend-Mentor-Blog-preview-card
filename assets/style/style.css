@@ -29,3 +29,10 @@ body {
     place-content: center;
 }
 
+.card {
+    height: 20rem;
+    width: 20rem;
+    background: var(--White);
+    border-radius: 15px;
+    box-shadow: 10px 10px var(--Black);
+}
