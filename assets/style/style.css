@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sans-serif;
+    src: url(../fonts/static/Figtree-SemiBold.ttf);
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+:root {
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
