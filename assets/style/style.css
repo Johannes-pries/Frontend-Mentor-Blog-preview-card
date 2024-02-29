@@ -30,9 +30,32 @@ body {
 }
 
 .card {
-    height: 20rem;
-    width: 20rem;
+    height: auto;
+    width: auto;
     background: var(--White);
     border-radius: 15px;
     box-shadow: 10px 10px var(--Black);
+    padding: 1.5rem;
+    border: 1px solid var(--Black);
+}
+
+.content1 > svg{
+    border-radius: 15px;
+}
+
+.subheading {
+    font-weight: bold;
+    font-size: .9rem;
+    display: inline-block;
+    height: 2rem;
+    width: auto;
+    background: var(--Yellow);
+    text-align: center;
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.published-text {
+    font-size: .9rem;
+    margin-top: .2rem;
 }
