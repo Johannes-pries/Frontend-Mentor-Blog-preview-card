@@ -32,6 +32,7 @@ body {
 .card {
     height: auto;
     width: auto;
+    inline-size: min-content;
     background: var(--White);
     border-radius: 15px;
     box-shadow: 10px 10px var(--Black);
@@ -58,4 +59,38 @@ body {
 .published-text {
     font-size: .9rem;
     margin-top: .2rem;
+}
+
+
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 790;
+    text-transform: uppercase;
+}
+
+.info-text {
+    width: fit-content;
+    line-height: 1.5rem;
+    color: var(--Grey);
+}
+
+.content4 {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: max-content;
+    gap: 1.3rem;
+    margin-top: .5rem;
+}
+
+.content4 > div:first-of-type {
+    content: url(../images/image-avatar.webp);
+    height: 2.5rem;
+}
+
+.content4>div:last-of-type {
+    display: grid;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 800;
 }
